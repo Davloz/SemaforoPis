@@ -1,0 +1,224 @@
+/**body {
+  margin: auto;
+  padding: 0;
+  background-image: url('../imagenes/logounl.jpg');
+  background-size: 10%;
+  background-position: center;
+  background-repeat: repeat;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}*/
+/**body {
+  margin: auto;
+  padding: 0;
+  background: linear-gradient(to bottom,#000057, #2310c7);
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}*/
+
+body {
+  margin: auto;
+  padding: 0;
+  background: white;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.history-container {
+  max-height: 500px; /* Ajusta según sea necesario */
+  overflow-y: auto;  /* Agrega una barra de desplazamiento vertical si es necesario */
+  padding: 10px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  min-height: 100vh;
+  background: #4b6cb7;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.main-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 650px;
+  height: 750px;
+  overflow: auto;
+  position: absolute;
+  top: 100px;
+  left: 49%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.main-container2 {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 650px;
+  height: 750px;
+  position: absolute;
+  top: 100px;
+  left: 16%;
+  transform: translateX(-50%);
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.main-container3 {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 650px;
+  height: 750px;
+  position: absolute;
+  top: 100px;
+  left: 82%;
+  transform: translateX(-50%);
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.side-container,
+.container,
+.login-container {
+  width: calc(30% - 20px);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+.login-container {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.login-container .col-md-6 {
+  width: 100%;
+}
+
+.login-container .footer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.login-container label,
+.login-container input {
+  width: 80%;
+  margin: 5px 0;
+}
+
+.login-container.container.mt-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: 500px;
+  margin: 0 auto;
+}
+.registro-container.container.mt-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px;
+}
+.login-container.container.mt-5 .btn-primary {
+  margin-top: 20px;
+}
+
+.login-container.container.mt-5 form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.app-title {
+  color: #4285f4;
+  margin-bottom: 20px;
+}
+
+.uv-legend {
+  color: white;
+  padding: 20px;
+  background-color: #1a5276;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.container,
+.uv-info,
+.uv-bar {
+  background-color: #ffffff;
+  color: #4b6cb7;
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden; /* Asegura que el desbordamiento de la imagen no sea visible */
+}
+
+.background-image {
+  width: 200%;
+  height: 100%;
+  object-fit: cover;
+  animation: movement 60s linear infinite;
+  transform: translateX(-100%);
+}
+
+.table-header {
+  color: #100955 !important;
+  text-align: center;
+  font-weight: bold;
+  /* Puedes agregar otros estilos según sea necesario */
+}
+
+@keyframes movement {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

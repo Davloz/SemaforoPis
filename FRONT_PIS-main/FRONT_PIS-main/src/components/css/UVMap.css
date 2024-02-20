@@ -1,0 +1,11 @@
+/* UVMap.css */
+.uv-map {
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2 40px 80px rgba(20, 20, 20, 5.8);
+  margin-top: 15px;
+}
+.uv-warning ,h1,li{
+  color: #0f0f0f;
+}

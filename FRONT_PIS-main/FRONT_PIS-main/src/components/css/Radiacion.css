@@ -1,0 +1,21 @@
+/* Radiacion.css */
+.row h2 {
+  color: #100955 !important;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold; /* Cambia el color del texto a negro para todos los títulos h2 dentro de las filas */
+}
+/* Radiacion.css */
+.h3 {
+  color: #000000 !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.row h1 {
+  color: #100955 !important;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif !important; /* Tipo de letra Roboto Condensed */
+}
+

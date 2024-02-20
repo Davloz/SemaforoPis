@@ -1,0 +1,110 @@
+/* NewUVBar.css */
+.new-uv-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  /* Ajusta el ancho de la barra según tus necesidades */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+}
+
+h2 {
+  color: #070707;
+}
+
+.new-uv-bar {
+  background-color: #ddd;
+  /* Color de fondo de la barra */
+  height: 220px;
+  /* Altura de la barra */
+  width: 100%;
+  /* Ajusta el ancho de la barra según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  /* Espaciado para los rectángulos */
+}
+
+.uv-level {
+  flex-grow: 2;
+  position: relative;
+  margin-bottom: 7px;
+  /* Ajusta el margen inferior según tus necesidades */
+}
+
+.uv-level-range {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: inherit;
+  /* Utiliza el color heredado (del color de fondo del uv-level) */
+  font-size: 14px;
+}
+
+.uv-level-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Centra verticalmente los elementos en el contenedor */
+  align-items: center;
+  /* Centra horizontalmente los elementos en el contenedor */
+  gap: 17px;
+  /* Espaciado entre los elementos de información */
+}
+
+.uv-info-item {
+  display: flex;
+  align-items: center;
+}
+
+.uv-level-label {
+  font-size: 14px;
+  color: #34495e;
+  /* Cambiado el color del texto a un tono más oscuro */
+  text-align: center;
+  /* Centrar el texto horizontalmente */
+  margin-left: 10px;
+  /* Ajusta el margen izquierdo según tus necesidades */
+}
+
+.uv-level-color {
+  width: 30px;
+  /* Ajusta el ancho del rectángulo según tus necesidades */
+  height: 15px;
+  /* Ajusta la altura del rectángulo según tus necesidades */
+}
+
+
+.uv-level-text {
+  font-size: 14px;
+  color: #34495e;
+  /* Cambiado el color del texto a un tono más oscuro */
+}
+
+/* Establece colores específicos para cada nivel */
+.uv-level-1 {
+  background-color: #27ae60;
+  /* Cambiado el color del nivel 1 a verde */
+}
+
+.uv-level-2 {
+  background-color: #f1c40f;
+  /* Cambiado el color del nivel 2 a amarillo */
+}
+
+.uv-level-3 {
+  background-color: #e67e22;
+  /* Cambiado el color del nivel 3 a naranja */
+}
+
+.uv-level-4 {
+  background-color: #e74c3c;
+  /* Cambiado el color del nivel 4 a rojo */
+}
+
+.uv-level-5 {
+  background-color: #8e44ad;
+  /* Cambiado el color del nivel 5 a morado */
+}

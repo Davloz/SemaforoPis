@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.2115, -4.0079] 
+      },
+      "properties": {
+        "name": "Loja",
+        "uvIntensity": 5
+      }
+    }
+  ]
+}
+

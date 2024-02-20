@@ -1,0 +1,48 @@
+.uv-warning {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  max-height: 85px;
+  /* Ajusta la altura máxima según tus necesidades */
+  overflow: hidden;
+  /* Oculta cualquier contenido que exceda la altura máxima */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
+  /* Agregar sombra alrededor */
+  text-align: center;
+  border-radius: 10px;
+}
+
+.uv-warning.low {
+  color: green;
+  /* Color para el nivel bajo */
+  background-color: #ccffcc;
+  /* Fondo verde claro */
+}
+
+.uv-warning.moderate {
+  color: #e6e600;
+  /* Color para el nivel moderado */
+  background-color: #ffffcc;
+  /* Fondo amarillo claro */
+}
+
+.uv-warning.high {
+  color: #ff9900;
+  /* Color para el nivel alto */
+  background-color: #ffebcc;
+  /* Fondo naranja claro */
+}
+
+.uv-warning.very-high {
+  color: #ff3300;
+  /* Color para el nivel muy alto */
+  background-color: #ffd6cc;
+  /* Fondo rojo claro */
+}
+
+.uv-warning.extreme {
+  color: #990000;
+  /* Color para el nivel extremo */
+  background-color: #ffcccc;
+  /* Fondo rojo claro */
+}

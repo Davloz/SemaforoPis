@@ -1,0 +1,22 @@
+/* Footer.css */
+
+.footer {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    color: #4b6cb7;
+    width: 30%; /* Ajusta el ancho del Footer según tus preferencias */
+    margin: auto; /* Ajusta el margen según tus preferencias */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Agregar sombra alrededor */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .unl-logo {
+    width: 30px; /* Ajusta el ancho de la imagen según tus necesidades */
+    margin: 0 10px; /* Ajusta el espaciado entre la imagen y el texto según tus necesidades */
+  }
+  

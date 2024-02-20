@@ -1,0 +1,14 @@
+.uv-info {
+  color: #000000; /* Cambia a un color visible, por ejemplo, negro */
+  background-color: white; 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  width: 500px;
+}
+
+.uv-info p {
+  font-size: 18px;
+  margin-bottom: 0;
+}

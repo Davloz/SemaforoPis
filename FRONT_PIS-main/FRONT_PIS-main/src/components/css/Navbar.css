@@ -1,0 +1,29 @@
+/* Agrega estos estilos personalizados */
+.navbar-custom {
+    background-color: #100955 !important; /* Fondo color #100955 */
+  }
+  
+  .navbar-custom a {
+    color: #ffffff !important; /* Texto blanco */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #100955 !important; /* Texto azul al pasar el mouse */
+    background-color: #ffffff !important; /* Fondo blanco al pasar el mouse */
+  }
+
+  .brand-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .larger-text {
+    font-size: 1.3em; /* Ajusta el tamaño del texto según sea necesario */
+    margin-right: 5px; /* Ajusta el margen entre el texto y el ícono */
+  }
+  
+  .icon-in-o {
+    width: 30px; /* Ajusta el tamaño del ícono según sea necesario */
+    height: 30px;
+    margin-top: -5px; /* Ajusta la posición vertical del ícono en la 'o' */
+  }

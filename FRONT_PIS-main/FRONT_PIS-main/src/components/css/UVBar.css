@@ -1,0 +1,60 @@
+/* UVBar.css */
+.uv-bar {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  color: #000000;
+}
+
+.uv-bar p {
+  margin: 0;
+}
+
+.uv-bar-indicator {
+  /* Define los estilos para el indicador de color, por ejemplo, el tamaño */
+  width: 20px;
+  height: 10px;
+}
+
+/* Define los colores según el nivel de intensidad */
+.uv-color-indicator.green {
+  background-color: green;
+}
+
+.uv-color-indicator.yellow {
+  background-color: yellow;
+}
+
+.uv-color-indicator.orange {
+  background-color: orange;
+}
+
+.uv-color-indicator.red {
+  background-color: red;
+}
+
+.uv-color-indicator.purple {
+  background-color: purple;
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.uv-bar-indicator {
+  /* Define los estilos para el indicador de color, por ejemplo, el tamaño */
+  width: 20px;
+  height: 10px;
+  animation: blink 2s infinite; /* Aplica la animación de parpadeo */
+}

@@ -1,0 +1,36 @@
+.uv-legend {
+  color: white;
+  border-radius: 10px;
+  overflow-y: auto;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.uv-legend h2 {
+  margin: 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.uv-low {
+  background-color: #28a745; /* Verde para UV bajo */
+}
+
+.uv-moderate {
+  background-color: #ffc107; /* Amarillo para UV moderado */
+}
+
+.uv-high {
+  background-color: #fd7e14; /* Naranja para UV alto */
+}
+
+.uv-very-high {
+  background-color: #dc3545; /* Rojo para UV muy alto */
+}
+
+.uv-extreme {
+  background-color: #6610f2; /* Morado para UV extremo */
+}

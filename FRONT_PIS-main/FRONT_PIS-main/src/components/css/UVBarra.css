@@ -1,0 +1,29 @@
+.uv-barra-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 200px; /* Altura de la barra */
+}
+
+.uv-barra-svg {
+  width: 100%; /* Ancho del SVG */
+}
+
+.uv-barra-circle {
+  fill: none;
+  stroke: lightgrey;
+  stroke-width: 8;
+}
+
+.uv-barra-reading {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
